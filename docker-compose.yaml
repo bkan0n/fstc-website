@@ -1,6 +1,6 @@
 services:
   web:
-    image: waitformeinspace:latest
+    image: tylovejoy/waitformeinspace:latest
     container_name: fstc-website
     networks:
       - caddy-network
