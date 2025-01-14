@@ -1,0 +1,10 @@
+services:
+  web:
+    image: waitformeinspace:latest
+    container_name: fstc-website
+    networks:
+      - caddy-network
+
+networks:
+  caddy-network:
+    external: true
